@@ -10,6 +10,7 @@ public class RemoveMinParenthesesFunction {
         
         Stack<Integer> stack = new Stack<>();
         
+        
         for(int i = 0; i < sb.length(); i++){
             if(sb.charAt(i) == '('){
                 stack.push(i);
@@ -26,6 +27,7 @@ public class RemoveMinParenthesesFunction {
             sb.setCharAt(stack.pop(), '*');
         }
         
+        // REPLACED * with nothing
         return sb.toString().replaceAll("\\*", "");
     }
     
