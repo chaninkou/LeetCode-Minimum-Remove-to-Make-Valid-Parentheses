@@ -27,7 +27,7 @@ public class RemoveMinParenthesesFunction {
             sb.setCharAt(stack.pop(), '*');
         }
         
-        // REPLACED * with nothing
+        // REPLACED * with empty
         return sb.toString().replaceAll("\\*", "");
     }
     
