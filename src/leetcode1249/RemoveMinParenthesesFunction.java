@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class RemoveMinParenthesesFunction {
   
-    // Use * to remove using regular expression
+    // Use * to remove parenthese using regular expression
     public String minRemoveToMakeValid2(String s) {
         StringBuilder sb = new StringBuilder(s);
         
